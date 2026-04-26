@@ -5,14 +5,13 @@ import { getFirestore, collection, onSnapshot, addDoc, updateDoc, deleteDoc, doc
 
 // Fallback configuration for local usage
 const fallbackConfig = {
-    apiKey: "AIzaSyBHYARZ5NZIH3QUNOaVijmP8gvUQUfHdK8",
-    authDomain: "rims-nicu-tracker.firebaseapp.com",
-    projectId: "rims-nicu-tracker",
-    storageBucket: "rims-nicu-tracker.firebasestorage.app",
-    messagingSenderId: "330632025948",
-    appId: "1:330632025948:web:353247817bf1138f359399",
-    measurementId: "G-87Q44YRFDY"
-};
+    apiKey: "AIzaSyBTYo-RrJvQCT6_aH5kYre_NHVdM2F0nEo",
+    authDomain: "nicu-ui.firebaseapp.com",
+    projectId: "nicu-ui",
+    storageBucket: "nicu-ui.firebasestorage.app",
+    messagingSenderId: "999015849319",
+    appId: "1:999015849319:web:4f5dc7c8adb72382eca3c2",
+    measurementId: "G-7XBFTEPP83"
 
 // Initialize Firebase
 const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : fallbackConfig;
